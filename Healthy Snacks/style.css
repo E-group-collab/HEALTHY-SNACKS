@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*---HOME PAGE HEADER---*/
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/maxresdefault\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+
+}
+/*---ABOUT HEADER---*/
+.header2{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/maxresdefault.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+/*---ALL LOGOS---*/
+.logo img{
+    width: 100px;
+    border-radius: 50px;
+}
+.logo2 img{
+    width: 100px;
+    border-radius: 50px;
+}
+/*HOME,ABOUT NAVS*/
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration:none;
+}
+/*---CONTACT NAVS---*/
+.nav-links2{
+    flex: 1;
+    text-align: right;
+}
+.nav-links2 ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links2 ul li a{
+    color: white;
+    text-decoration:none;
+}
+/*---TEXT BOX---*/
+.text-box{
+    width: 100%;
+    color: gold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 50px;
+
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 25px;
+    color: gold;
+
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: gold;
+    border: 1px solid gold;
+    padding: 12px 34px;
+    padding-top: 10px;
+    font-size: 20px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+/*---ABOUT---*/
+.about{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 70px;
+}
+.about p{
+    font-size: 20px;
+
+}
+/*---FOOTER---*/
+.footer{
+    text-align:right;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+}
+.footer h4{
+    font-size: x-large;
+}
+.footer p{
+    color: brown;
+    font-size: large;
+}
+.image-files h3{
+    text-align: center;
+    color: brown;
+    padding-top: 50px;
+    font-size: x-large;
+}
+/*---HOME PAGE---*>
+/*---ROWS---*/
+.row{
+    padding-left: 100px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+}
+.content h4{
+    color: brown;
+
+}
+.content img{
+    width: 300px;
+}
+.content P{
+    color: white;
+}
+.content2 p{
+    color: white;
+}
+.row2{
+    padding-left: 100px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.content2 h4{
+    color: brown;
+
+}
+.content2 img{
+    width: 300px;
+}
+.row3{
+    padding-left: 100px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.content3 h4{
+    color: brown;
+}
+.content3 img{
+    width: 300px;
+}
+/*---ABOUT PAGE---*/
+.about h1{
+    font-size: x-large;
+    color: purple;
+}
+.about p{
+    padding-top: 20px;
+    color: purple;
+}
+.hist-img img{
+    width: 400px;
+    padding-top: 20px;
+    padding-left: 550px;
+}
